@@ -1,0 +1,477 @@
+*,*::before*,*:any-link{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'open sans', sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.6;
+}
+
+.row{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.row-100{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.row-column-100{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.row-column{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.custom-font{
+    font-family: 'playfair display', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    padding: 60px;
+    background-image: url(../img/banner.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+}
+
+header.banner{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+.banner-heading{
+    font-family: 'playfair display', sans-serif;
+    font-size: 6rem;
+    font-style: italic;
+    padding: 0.2rem;
+}
+
+.row .banner-heading{
+    font-family: 'Playfair Display', serif;
+    font-size: 6rem;
+    font-style: italic;
+    padding: 0 2rem;
+}
+
+.banner-text{
+    font-size: 0.9rem;
+    font-weight: normal;
+    background-color: #fff;
+    color: black;
+    padding: 30px;
+}
+.row .banner-text{
+    width: 50%;
+    height: fit-content;
+    font-size: 1rem;
+    font-weight: normal;
+    background-color: #fff;
+    padding: 50px;
+    color: black;
+}
+
+.section-1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+    background-color: #d9b1b3;
+    color: white;
+}
+.annon{
+    font-size: 2.2rem;
+    font-style: italic;
+    font-weight: 800;
+    
+}
+
+.annon span{
+    font-size: 6rem;
+    line-height: 0;
+}
+.section-1 p{
+    font-style: italic;
+    width: 50%;
+    font: 0.8rem;
+    
+}
+
+.section-2 .img-container{
+    height: 450px;
+    display: flex;
+    flex-grow: 1;
+    overflow: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+
+}
+
+.section-2 .gallery-img-1{
+    background-image: url("../img/gallery-1.jpeg");
+}
+
+.section-2 .gallery-img-2{
+    background-image: url("../img/gallery-2.jpeg");
+}
+
+.section-2 .gallery-img-3{
+    background-image: url("../img/gallery-3.jpeg");
+}
+
+.section-2 .gallery-img-4{
+    background-image: url("../img/gallery-4.jpeg");
+}
+
+.section-2 .gallery-img-5{
+    background-image: url("../img/gallery-5.jpeg");
+}
+
+.section-2 .gallery-img-6{
+    background-image: url("../img/gallery-6.jpeg");
+}
+
+.section-3 {
+    background-color: #d9b1b3;
+    color: white;
+    padding: 0px;
+}
+
+.section-3 .row-column-100{
+ justify-content: center;
+ min-height: 100px;
+ margin-top: 10px;
+ 
+}
+
+.section-3 .coming-soon-text{
+  letter-spacing: 0px;
+  line-height: 1.4;
+  width: 714px;
+  font-size: 1.5rem;
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  text-transform: none;
+  margin: 32px auto 0;
+}
+
+.section-3 .coming-soon-heading{
+  font-size: 4.5rem;
+  font-style: italic;
+  
+}
+.section-3 .coming-soon-heading,
+.section-3 .coming-soon-text, 
+.section-3 .coming-soon-form{
+text-align: center;
+
+}
+
+.section-3 .coming-soon-form{
+    height: 71px;
+    width: 704px;
+    margin: 52px auto 60px;
+}
+
+.coming-soon-form .input-container{
+    display: flex;
+    justify-content: center;
+    padding: 0 5px;
+    
+
+}
+
+.coming-soon-form .row-column-100{
+   justify-content: center;
+
+}
+.input-container .text-input,
+.input-container .form-btn{
+    padding: 12px 10px;
+    border: unset;
+    border-radius: 30px;
+}
+.input-container .form-btn{
+    background-color: black;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.875rem;
+    width: 100%;
+    
+    
+}
+
+.section-4{
+    background-color: #fff;
+    padding: 3rem;
+    
+}
+
+.article-img-container, .article-text-container{
+    height: 38rem;
+    display: flex;
+    align-items: center;
+}
+
+.article-img-container{
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 35%;
+    margin-top: 70px;
+}
+
+.article-img-container .article-img{
+    width: 100%;
+}
+
+.article-text-container{
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 55%;
+    padding: 5rem;
+}
+.article-text-container .article-text{
+    font-size: 1.5rem;
+    font-weight: 100;
+    line-height: 2rem;
+    text-align: justify;
+}
+.signature-img{
+  width: 500px;
+  height: 50px;
+  margin: 400px auto 0 -500px;
+  padding-right: 6rem;
+  
+}
+
+.section-5{
+    padding: 3.5rem;
+    background-color: #d9b1b3;
+    color: #fff;
+}
+.section-5 .row-100{
+    justify-content: center;
+        
+
+}
+.slide-heading{
+    font-size: 3.5rem;
+    font-style: italic;
+    margin-bottom: 1.3rem;
+}
+
+.slide-img-container{
+    flex-grow: 1;
+    height: 350px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0.3rem;
+    
+    
+}
+
+.slide-img-1{
+    background-image: url("../img/slide-1.jpg");
+}
+.slide-img-2{
+    background-image: url("../img/slide-2.jpg");
+}
+.slide-img-3{
+    background-image: url("../img/slide-3.jpg");
+}
+.slide-img-4{
+    background-image: url("../img/slide-4.jpg");
+}
+.slide-icon-container .arrow-right i{
+    font-size: 50px;
+}
+
+.slide-icon-container i{
+    font-size: 50px;
+}
+
+.product{
+    padding: 4.5rem;
+}
+
+.product-container{
+    height: 350px;
+    flex-grow: 1;
+    flex-basis: 33.33%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.product-container, .product-description {
+    padding: 0.1rem;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+
+.product-container img{
+    width: 90%;
+}
+
+.product-description {
+    height: 300px;
+    flex-grow: 1;
+    flex-basis: 33.33%;
+    
+}
+
+.product-description h4{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 1.2rem;
+}
+.product-description .price-tag{
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 1.5rem;
+
+}
+
+.product-description p{
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.product-description button{
+    width: 200px;
+    padding: .7rem;
+    border-radius: 1.3rem;
+    background-color: black;
+    color: white;
+    border: unset;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.product-description button:hover{
+    background-color: #d9b1b3;
+}
+
+.subscribe{
+    height: 100vh;
+}
+.subscribe-img-container, .subscribe-text-container{
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 50%;
+    height: 120vh;
+    margin-top: 50px;
+}
+
+.subscribe-img-container{
+    background-image: url("../img/subscribe.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.input-container .form-btn-1{
+    letter-spacing: 1px;
+    background-color: black;
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.875rem;
+    width: 20%;
+    padding: 11px 31px 12px 29px;
+    border-radius: 1.5rem;
+
+}
+
+.subscribe-text{
+    font-size: 1rem;
+   padding-left: 170px;
+    width: 50%;
+}
+
+.subscribe-heading{
+    position: relative;
+    text-align: center;
+    font-size: 4rem;
+    font-style: italic;
+    font-weight: 800;
+    padding-top: 20px;
+}
+
+.subscribe-heading::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translatex(-50%);
+    width: 75%;
+    height: 8px;
+    background-color: #d9b1b3;
+}
+.input-container input{
+    padding: 0.8rem 1rem;
+    margin: 1rem;   
+}
+
+.input-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 1px;
+    font-size: 30px;
+    width: 2px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 150px;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    color:black;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    color: black;
+  }
+  /* Instagram */
+  .fa-instagram {
+    color: black;
+
+  }
