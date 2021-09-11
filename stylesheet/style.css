@@ -50,7 +50,7 @@ header{
     background-image: url(../img/banner.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    border: 1px solid black;
+    
 }
 
 header.banner{
